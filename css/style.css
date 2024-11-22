@@ -116,7 +116,7 @@ ol{
 /* DISTÂNCIAS */
 
 .dis-cidades{
-    border-collapse: separate;
+    border-collapse: collapse;
     width: 100%;
     border: 1px solid var(--brown);
     margin-top: 30px;
@@ -133,7 +133,7 @@ ol{
 }
 
 .dis-pontos{
-    border-collapse: separate;
+    border-collapse: collapse;
     width: 100%;
     border: 1px solid var(--brown);
     margin-top: 30px;
