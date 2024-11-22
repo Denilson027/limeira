@@ -121,12 +121,12 @@ ol{
     border: 1px solid var(--brown);
     margin-top: 30px;
     th{
-        background-color: var(--green);
+        background-color: var(--orange);
         color: white;
         padding: 10px;
     }
     td{
-        background-color: var(--orange);
+        background-color: var(--green);
         text-align: center;
         padding: 7px;
     }
