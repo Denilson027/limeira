@@ -296,3 +296,43 @@ i{
 i:hover{
     color: lightgreen;
 }
+
+@media screen and (max-width:600px) {
+    
+    nav, article, main, footer {
+        width: 100%;
+    }
+
+    article {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav img {
+        width: 100%;
+    }
+
+    nav span div a {
+        display: inline-block;
+    }
+
+    nav span .menu {
+        text-align: center;
+    }
+
+    .home {
+        display: block;
+        .card {
+            width: 100%;
+        }
+    }
+
+    footer {
+        padding: 0px 10px 10px 10px;
+    }
+   
+}
