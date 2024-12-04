@@ -250,7 +250,6 @@ ol{
     ul li:nth-child(odd) {
         border-bottom: 1px solid var(--brown);
     }
-    
     ul li:nth-child(even) {
         border-bottom: 1px solid var(--brown);
     }
@@ -329,6 +328,57 @@ i:hover{
         .card {
             width: 100%;
         }
+    }
+
+    .galeria_destaque{
+        img {
+            width: 100%;
+        }
+    }
+
+    .galeria_miniatura{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        img {
+            width: 48%;
+        }
+    }
+
+    .imapa {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .pop2{
+        text-align: end;
+        li:nth-child(1){
+            height: 75px;
+        }
+        li:nth-child(3){
+            height: 75px;
+        }
+        li:nth-child(4){
+            height: 102px;
+        }
+        li:nth-child(5){
+            height: 75px;
+        }
+        li:nth-child(6){
+            height: 75px;
+        }
+        li:nth-child(7){
+            height: 102px;
+        }
+    }
+
+    .ponto_turistico{
+        width: 100%;
+    }
+
+    .ivideo{
+        width: 100%;
+        height: 24vh;
     }
 
     footer {
